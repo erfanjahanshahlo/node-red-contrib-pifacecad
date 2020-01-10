@@ -1,12 +1,11 @@
 {
   "name": "node-red-contrib-pifacecad",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Node-RED node for Raspberry Pi use the PiFace CAD board.",
   "dependencies": {},
   "node-red": {
     "nodes": {
-      "pfc_lcd": "pfc_lcd.js",
-	  "pfc_switch": "pfc_switch.js"
+      "pfc_lcd": "pfc_lcd.js"
     }
   },
   "author": "Erfan Jahanshahloo <erfanjahanshahlo@gmail.com> (http://nodered.org)",
@@ -20,7 +19,7 @@
   },
   "keywords": [
     "piface",
-	"pifacecad",
+    "pifacecad",
     "node-red",
     "nodered",
     "node-red-node",
