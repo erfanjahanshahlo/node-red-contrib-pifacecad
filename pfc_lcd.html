@@ -1,0 +1,21 @@
+<script type="text/javascript">
+    RED.nodes.registerType("pfc_lcd",{
+        category: "Raspberry Pi",
+        color: "#C0DEED",
+	defaults: {
+		name: { value: "" ,required:true }        
+	},
+	inputs: 1,
+	outputs: 0,
+	icon: "rpi.png",
+	label: function() { return this.name||"pfc_lcd"; },
+	align: "right"
+    });
+</script>
+
+<script type="text/x-red" data-template-name="pfc_lcd">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
