@@ -45,6 +45,4 @@ Here's how to send data to this node.
 ROW,COL:YOUR TEXT
 ```
 for clear lcd send ```1,1:``` to the node to clear lcd.
-<br/>***To work with switch node:***
-This node is used to get the status of the keys embedded in the PiFace CAD module. You need to enter the key number that starts from zero in the node settings field and sends the true node to the output each time the key is pressed.
 > Be careful not to use any spaces in any of these commands.
