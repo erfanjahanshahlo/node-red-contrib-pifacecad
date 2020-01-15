@@ -11,7 +11,7 @@ except:
 cad = pifacecad.PiFaceCAD()
 cad.lcd.backlight_on()
 cad.lcd.cursor_off()
-cad.lcd.set_cursor = (int(rowcol[1])-1, int(rowcol[0])-1)
+cad.lcd.set_cursor = (int(rowcol[1]), int(rowcol[0]))
 if (text):
     cad.lcd.write(unicode(text))
 else:
