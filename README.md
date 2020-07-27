@@ -22,9 +22,6 @@ in step one download this repository and rename main folder to ```node-red-contr
 ---pfc_lcd.py<br/>
 ---pfc_lcd.js<br/>
 ---pfc_lcd.html<br/>
----pfc_switch.py<br/>
----pfc_switch.js<br/>
----pfc_switch.html<br/>
 # Install Dependencies
 For install dependencies, in your raspberry pi terminal run the below command.
 ```
